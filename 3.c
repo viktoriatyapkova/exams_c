@@ -10,6 +10,6 @@ int main (){
             len += 1; 
         }
     }
-       result = (double)sum / (double)(len-1);
+       result = (double)sum / (double)(len);
     printf("%f\n", result);
 }
