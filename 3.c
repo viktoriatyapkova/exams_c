@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
-    int n, sum=0, len=0; 
-    double result;
+    int n, sum=0, len=0;
+    float result;  
     
     while (n != 0){ 
         if(n % 10 == 3){
@@ -10,6 +10,6 @@ int main (){
             len += 1; 
         }
     }
-       result = (double)sum / (double)(len);
+    result = (float)sum / (float)len;
     printf("%f\n", result);
 }
